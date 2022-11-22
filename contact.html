@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>Bijo</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
         <div class="row no-gutters">
@@ -25,18 +28,22 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <ul id= "nav" class="list-inline menu-container">
+                        <ul id="nav" class="list-inline menu-container">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-house" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-house"
+                                        aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap"
+                                        aria-hidden="true"></i><span>Resume</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa-regular fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa-regular fa-comment"
+                                        aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menu-item">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+                                <a href="assets/cv/Bijo_9_exp_dev_resume.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download"
+                                        aria-hidden="true"></i><span>Download</span></a>
                             </li>
                         </ul>
                     </div>
@@ -44,13 +51,36 @@
             </div>
         </div>
     </header>
-    <section></section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got a project in mind ?</h3>
+                <h4 class="uppercase text-center">Let's work together!</h4>
+
+                <div class="center-form">
+                    <form action="">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
+                            required>
+                        <textarea name="projectsummary" id="projectsumary" rows="5" class="form-control"
+                            placeholder="Project Description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Android, Full Stack Developer. Experience in development using Java, Android,C, C++, HTML, CSS, Python, WISE, MTK, BREW, SIP, VOIP
+                    Android, Full Stack Developer. Experience in development using Java, Android,C, C++, HTML, CSS,
+                    Python, WISE, MTK, BREW, SIP, VOIP
                     The capacity for structural and design thinking.
                 </p>
             </div>
@@ -58,7 +88,7 @@
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
                     Need a printable version of my CV ?. Download it here
-                    <a href="#" target="_blank" class="cv-pdf">
+                    <a href="assets/cv/Bijo_9_exp_dev_resume.pdf" target="_blank" class="cv-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                     </a>
@@ -102,6 +132,7 @@
         </div>
 
     </footer>
-    
+
 </body>
+
 </html>
